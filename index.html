@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>Formulário de Cadastro</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="css/modules.css" rel="stylesheet">
+  <link href="css/grid.css" rel="stylesheet">
+  <link href="css/type.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i" rel="stylesheet">
+</head>
+<body>
+  <section>
+    <div class="max-length island">
+      <h1 class="pad-t">Cadastro de Produtos</h1>
+
+      <form action="https://formspree.io/bradlet@algonquincollege.com" method="POST">
+        <fieldset>
+          <div class="grid">
+            <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2 push-1-2 pad-t-1-2">
+              <label for="name">Nome</label>
+              <input id="name" required>
+            </div>
+            <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2 push-1-2 pad-t-1-2">
+              <label for="age">Descrição</label>
+              <input id="age">
+            </div>
+            <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2 push-1-2 pad-t-1-2">
+              <label for="email">Preço</label>
+              <input id="email" type="email" name="email" required>
+          <div class="pad-t-1-2">
+            <label for="address">Categoria</label>
+            <textarea id="address" name="address" required></textarea>
+          </div>
+        </fieldset>
+
+        <button class="btn" type="submit">Salvar</button>
+        <input type="hidden" name="_subject" value="Request to join the mission">
+      </form>
+    </div>
+  </section>
+</body>
+</html>
