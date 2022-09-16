@@ -1,0 +1,160 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+
+body{
+  background-color: #F0F8FF;
+  font-family: sans-serif;
+  font-size: 1em;
+  color: #000000;
+  margin-left: 10%;
+  margin: 2% auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 50%;
+}
+
+a{
+  text-decoration: none;
+  color: #F0F8FF;
+}
+
+
+.container{
+  padding: 0.625rem;
+  
+}
+
+nav{
+  width: auto;
+  height: 31.25rem;
+  background-color: #6f8191;
+  float: left;
+  box-sizing: border-box;
+  padding: 0.625rem;
+  margin-right: 3rem;
+}
+
+section{
+  width: 100%;
+  margin-left: 0.625rem;
+  background-color: #F0F8FF;
+  box-sizing: border-box;
+  padding-left: 0.625; 
+}
+
+ul.menu{
+  list-style: none;
+}
+
+.form-wrapper {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.form-wrapper1 {
+  flex-direction: column;
+  display: flex;
+  justify-content: space-around;
+  row-gap: 5px;
+}
+
+form {
+  width: 100%;
+}
+
+ul.menu li{
+  font-family: sans-serif;
+  font-size: 1em;
+  width: 100%;
+  height: 3.125rem;
+  line-height: 1.875rem;
+  background-color: #07055a;
+  color: #fff;
+  margin-top: 0.315rem;
+  box-sizing: border-box;
+  padding: 0.625rem;   
+  border: 3px;
+}
+
+.btn{
+  font-size: 1.2em;
+  background: #120FF2;
+  border: 1px;
+  margin-bottom: 1em;
+  color: #ffffff;
+  padding: 0.2em 0.6em;
+  box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+
+.btn:hover {
+  font-size: 1.2em;
+  background: #CCBBFF;
+  
+  margin-bottom: 1em;
+  color: #ffffff;
+  padding: 0.2em 0.6em;
+  box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+
+.campo{
+  padding: 0.2em;
+  border: 1px solid #1D1BA6;
+  box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+  display: block;
+  margin-bottom: 1em;
+  width: 100%;
+  padding: 10px 10px;
+}
+
+.campoDescricao{
+  padding: 0.2em;
+  border: 1px solid #1D1BA6;
+  box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+  display: block;
+  margin-bottom: 1em;
+  width: 100%;
+  height: 5rem;
+}
+
+.campo select option {
+  padding-right: 1 em;
+}
+
+.campo input:focus, .campo select:focus, .campo textarea:focus {
+  background: #E0E0F8;
+}
+
+#titulo1 {
+  font-family: sans-serif;
+  color: #07055a;
+  height: 2rem;
+  margin-left: 0%;
+} 
+
+#titulo {
+  font-family: sans-serif;
+  color: #07055a;
+  margin-left: 0%;
+} 
+
+
+
+@media (min-width: 1200px) {
+  @media only screen and (max-device-width: 900px) {
+    .menu { width:600px; }
+    }
+  }
